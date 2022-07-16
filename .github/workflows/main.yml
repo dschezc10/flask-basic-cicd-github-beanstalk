@@ -63,7 +63,7 @@ jobs:
           pip install awsebcli --upgrade
           eb --version
   
-          # Configure AWS Credentials
+          # Configure AWS Credential
   
       # Configure AWS Credentials
       - name: Configure AWS Credentials
