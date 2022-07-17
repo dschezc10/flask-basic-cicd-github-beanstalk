@@ -82,4 +82,4 @@ jobs:
       # Deploy to (or Create) the Elastic Beanstalk environment
       - name: Create test environment & deploy
         run: |
-          (eb use environment && eb status environment && eb deploy) || eb create environment
+          (eb use entorno && eb status entorno && eb deploy) || eb create entorno
