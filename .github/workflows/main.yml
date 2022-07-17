@@ -80,6 +80,6 @@ jobs:
           eb init -p python-3.8 Flask_Basic --region us-east-1
   
       # Deploy to (or Create) the Elastic Beanstalk environment
-      - name: Create environment & deploy
+      - name: Create test environment & deploy
         run: |
           (eb use environment && eb status environment && eb deploy) || eb create environment
